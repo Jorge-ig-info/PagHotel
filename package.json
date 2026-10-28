@@ -1,0 +1,19 @@
+﻿{
+  "name": "paghotel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pagina web de Hotel en React con Header, About, Contac y Raauter",
+  "scripts": {
+    "dev": "npm --prefix Miapp run dev",
+    "start": "npm --prefix Miapp run dev",
+    "build": "npm --prefix Miapp run build",
+    "preview": "npm --prefix Miapp run preview"
+  },
+  "keywords": [
+    "react",
+    "hotel",
+    "habitaciones"
+  ],
+  "author": "",
+  "license": "ISC"
+}
