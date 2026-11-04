@@ -1,4 +1,4 @@
-﻿# 🏨 Hotel Costa Serena - Aplicación Web en React
+﻿# 🏨 Hotel Vasquez - Aplicación Web en React
 
 Página web de un hotel básica desarrollada en React siguiendo la estructura y componentes solicitados.
 
