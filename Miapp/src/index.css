@@ -1,4 +1,19 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,400&display=swap');
+
+:root {
+  --primary: #1b3b36;
+  --primary-light: #2d5a53;
+  --accent: #c4734a;
+  --accent-light: #f5ebe6;
+  --bg-main: #fbfaf8;
+  --surface: #ffffff;
+  --text-primary: #1f2a28;
+  --text-secondary: #5f706a;
+  --border-color: #e5ebe8;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
 
 * {
   margin: 0;
@@ -11,13 +26,18 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  color: #1e293b;
-  background-color: #ffffff;
-  line-height: 1.5;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-primary);
+  background-color: var(--bg-main);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
 button, input, select, textarea {
   font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

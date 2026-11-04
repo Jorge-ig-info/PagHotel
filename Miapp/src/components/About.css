@@ -1,188 +1,75 @@
-﻿.hotel-about {
-  padding: 85px 0;
-  background-color: #f8fafc;
-  color: #1e293b;
+﻿.about-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-.text-center {
+.about-header {
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.section-subtitle {
-  color: #d97706;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 2px;
-  display: block;
+.about-header h2 {
+  font-size: 28px;
   margin-bottom: 8px;
 }
 
-.section-title {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 2.5rem;
-  color: #0f172a;
-  margin: 0;
-  font-weight: 700;
-}
-
-.divider {
-  width: 60px;
-  height: 3px;
-  background: #d97706;
-  margin: 16px auto;
-  border-radius: 2px;
-}
-
-.section-description {
-  max-width: 680px;
-  margin: 0 auto 50px;
-  color: #64748b;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-.about-main-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 48px;
-  align-items: center;
-  margin-bottom: 70px;
-}
-
-.about-text-content h3 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.85rem;
-  color: #1e3a8a;
-  margin-bottom: 18px;
-  line-height: 1.3;
-}
-
-.about-text-content p {
-  color: #475569;
-  line-height: 1.7;
-  font-size: 1rem;
-  margin-bottom: 18px;
-}
-
-.about-highlights {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-top: 30px;
-  padding-top: 25px;
-  border-top: 1px solid #e2e8f0;
-}
-
-.highlight-item {
+.about-content {
   display: flex;
-  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
-.highlight-number {
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: #d97706;
-  font-family: 'Playfair Display', Georgia, serif;
+.about-text {
+  flex: 1;
 }
 
-.highlight-label {
-  font-size: 0.8rem;
-  color: #64748b;
-  margin-top: 4px;
-  line-height: 1.3;
-}
-
-.about-image-card {
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+.about-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .about-img {
+  flex: 1;
   width: 100%;
-  height: 380px;
+  max-height: 250px;
   object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
+  border-radius: 8px;
 }
 
-.about-image-card:hover .about-img {
-  transform: scale(1.03);
-}
-
-.about-badge-card {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(8px);
-  color: #fef3c7;
-  padding: 12px 18px;
-  border-radius: 10px;
-  font-size: 0.88rem;
-  font-weight: 600;
+.amenities h3 {
   text-align: center;
-  border: 1px solid rgba(217, 119, 6, 0.4);
-}
-
-/* Amenidades */
-.amenities-title {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 2rem;
-  color: #0f172a;
-  margin-bottom: 35px;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .amenities-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
 }
 
 .amenity-card {
-  background: #ffffff;
-  padding: 28px 24px;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-  transition: all 0.3s ease;
+  background-color: #f4f4f4;
+  padding: 16px;
+  border-radius: 6px;
 }
 
-.amenity-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-  border-color: #cbd5e1;
+.amenity-card h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
 }
 
-.amenity-icon {
-  font-size: 2.2rem;
-  display: inline-block;
-  margin-bottom: 14px;
+.amenity-card p {
+  font-size: 14px;
+  color: #666;
 }
 
-.amenity-name {
-  font-size: 1.15rem;
-  color: #1e293b;
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-
-.amenity-desc {
-  font-size: 0.92rem;
-  color: #64748b;
-  line-height: 1.5;
-  margin: 0;
-}
-
-@media (max-width: 900px) {
-  .about-main-grid {
-    grid-template-columns: 1fr;
-  }
-  .about-highlights {
-    grid-template-columns: 1fr;
-    gap: 12px;
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column;
   }
 }
